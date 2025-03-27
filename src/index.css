@@ -1,0 +1,64 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.home-container {
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .welcome-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .welcome-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-section p {
+    font-size: 1.2rem;
+  }
+  
+  .slider-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slide-image {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .prev-button,
+  .next-button {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }
+  
+  .prev-button svg,
+  .next-button svg {
+    width: 24px;
+    height: 24px;
+  }
+  
